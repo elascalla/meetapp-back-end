@@ -13,6 +13,8 @@ export default async (req, res, next) => {
   const [, token] = authHeader.split(' ');
 
   try {
+    // Utilizar 'promisify' para transformar uma função de callback em async await
+    // promisify(jwt.verify) => 'jwt.verify' coloca a função que queremos chamar.
     const decoded = await promisify(jwt.verify)(token, authConfig.secret);
 
     req.userId = decoded.id;
