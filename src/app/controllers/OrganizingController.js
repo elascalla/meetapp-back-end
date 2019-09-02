@@ -15,6 +15,8 @@ class OrganizingController {
       ],
     });
 
+    res.set('x-total-count', userMeetups.count);
+
     return res.json(userMeetups);
   }
 }

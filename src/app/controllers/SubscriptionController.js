@@ -42,6 +42,8 @@ class SubscriptionController {
       order: [['meetup', 'date']],
     });
 
+    res.set('x-total-count', subscriptions.count);
+
     return res.json(subscriptions);
   }
 
