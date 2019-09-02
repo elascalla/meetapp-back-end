@@ -1,16 +1,16 @@
 <h1 align="center">
     <img alt="Go Stack logo" src="https://github.com/elascalla/meetapp-back-end/blob/master/assets/logo-gostack.png" />
     <br>
-    Desafio MEETAPP
+    Desafio MeetApp
 </h1>
 
 <h4 align="center">
   A challenge for [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) Certificate
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/elascalla/meetapp-gostack.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/elascalla/meetapp-back-end">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/elascalla/meetapp-gostack.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/elascalla/meetapp-back-end">
 
   <a href="https://www.codacy.com/app/elascalla/meetapp-back-end?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=elascalla/meetapp-back-end&amp;utm_campaign=Badge_Grade">
   <img src="https://api.codacy.com/project/badge/Grade/b87b27f130cf4af98e52082d21e70426"/></a>
