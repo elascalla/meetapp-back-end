@@ -24,7 +24,7 @@
     <img alt="Repository issues" src="https://img.shields.io/github/issues/elascalla/meetapp-back-end.svg">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/elascalla/meetapp-back-end.svg">
+  <img alt="GitHub" src="https://img.shields.io/github/license/elascalla/meetapp-back-end">
 </p>
 
 <p align="center">
