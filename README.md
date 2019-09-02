@@ -1,0 +1,2 @@
+# meetapp-back-end
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5c2f4067846445de97ec27354f0e502d)](https://app.codacy.com/app/elascalla/meetapp-back-end?utm_source=github.com&utm_medium=referral&utm_content=elascalla/meetapp-back-end&utm_campaign=Badge_Grade_Dashboard)
