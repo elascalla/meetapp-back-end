@@ -27,7 +27,7 @@ class SubscriptionController {
             },
             {
               model: File,
-              as: 'file',
+              as: 'banner',
               attributes: ['id', 'url', 'path'],
             },
           ],

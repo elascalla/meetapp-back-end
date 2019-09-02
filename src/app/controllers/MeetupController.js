@@ -12,7 +12,6 @@ class MeetupController {
 
     if (req.query.date) {
       const parsedDate = parseISO(req.query.date);
-      console.log(parsedDate);
       where.date = {
         [Op.between]: [startOfDay(parsedDate), endOfDay(parsedDate)],
       };
@@ -29,7 +28,7 @@ class MeetupController {
         },
         {
           model: File,
-          as: 'file',
+          as: 'banner',
         },
       ],
       limit: 10,
@@ -42,7 +41,7 @@ class MeetupController {
   async store(req, res) {
     const schema = Yup.object().shape({
       title: Yup.string().required(),
-      file_id: Yup.number().required(),
+      banner_id: Yup.number().required(),
       description: Yup.string().required(),
       location: Yup.string().required(),
       date: Yup.date().required(),
@@ -69,7 +68,7 @@ class MeetupController {
   async update(req, res) {
     const schema = Yup.object().shape({
       title: Yup.string(),
-      file_id: Yup.number(),
+      banner_id: Yup.number(),
       description: Yup.string(),
       location: Yup.string(),
       date: Yup.date(),

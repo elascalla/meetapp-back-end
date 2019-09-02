@@ -9,7 +9,7 @@ class OrganizingController {
       include: [
         {
           model: File,
-          as: 'file',
+          as: 'banner',
           attributes: ['id', 'path', 'url'],
         },
       ],
